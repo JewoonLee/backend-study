@@ -1,0 +1,37 @@
+package 예제문제;
+import java.util.Scanner;
+
+class Point{
+	int x,y;
+	public void set(int x,int y) {
+		this.x=x;
+		this.y=y;
+	}
+	public void show() {
+		System.out.print("x="+x+","+"y="+y);
+	}
+	
+}
+class ColorPoint extends Point{
+	String color;
+	public void ColorSet(String color) {
+		this.color=color;
+	}
+	public void ShowColor(){
+		System.out.print(color);
+	}
+	
+}
+
+public class javapro {
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		Point p=new Point();
+		p.set(1,2);
+		
+		ColorPoint cp=new ColorPoint();
+		cp.ColorSet("blue");
+		cp.set(3,4);
+		p.show();
+		cp.ShowColor();}}
+

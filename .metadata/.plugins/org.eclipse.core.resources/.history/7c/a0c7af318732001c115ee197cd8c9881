@@ -1,0 +1,24 @@
+package 공부하자;
+import java.util.Scanner;
+
+class calrate{
+	private static double rate;
+	public static double todollar(int won) {
+		return won/rate;
+	}
+	public static double towon(int dollar) {
+		return dollar*rate;
+	}
+	public static void setrate(double r) {
+		rate=r;
+	}
+public class javagobu {
+	Scanner scanner=new Scanner(System.in);
+	double rate=scanner.nextDouble();
+	calrate.setrate(rate);
+	System.out.println(calrate.todollar(10000));
+	System.out.println(calrate.towon(100));	
+	}
+}
+
+

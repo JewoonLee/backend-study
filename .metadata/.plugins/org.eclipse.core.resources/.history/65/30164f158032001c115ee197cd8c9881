@@ -1,0 +1,30 @@
+package 공부하자;
+import java.util.Scanner;
+
+class circle{
+	int radius;
+	String name;
+	public circle() {
+	}
+	public double getarea() {
+		return 3.14*radius*radius;
+	}
+}
+
+public class javagobu {
+	public static void main(String[] args) {
+		circle c1=new circle();
+		c1.radius=10;
+		c1.name="동그라미";
+		double c1area=c1.getarea();
+		
+		circle c2=new circle();
+		c2.radius=2;
+		c2.name="피자";
+		double c2area=c2.getarea();
+		System.out.println(c1.name+"의 면적은 "+c1area);
+		System.out.println(c2.name+"의 면적은 "+c2area);
+	}
+}
+
+

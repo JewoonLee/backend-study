@@ -1,0 +1,19 @@
+package 예제문제;
+import java.util.Scanner;
+class circle{
+	int radius;
+	String name;
+	public circle() {}
+	public double size(){
+		return radius*radius*3.14;
+	}
+	
+}
+public class javapro {
+	public static void main(String[] args) {
+		circle c1=new circle();
+		c1.radius=10;
+		c1.name="동그라미";
+		double area=c1.size();
+		System.out.print("크기:"+area);
+}}

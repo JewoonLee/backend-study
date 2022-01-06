@@ -1,0 +1,30 @@
+package 공부하자;
+import java.util.Scanner;
+
+class rec{
+	int height; int weight;
+	public rec() {
+	}
+	public rec(int h,int w) {
+		height=h;
+		weight=w;
+	}
+	public int getarea() {
+		return weight*height;
+	}
+}
+
+public class javagobu {
+	public static void main(String[] args) {
+		rec r1=new rec();
+		r1.height=10;
+		r1.weight=12;
+		int area=r1.getarea();
+		rec r2=new rec(10,11);
+		int area2=r2.getarea();
+		System.out.print(area);
+		System.out.print(area2);
+	}
+}
+
+

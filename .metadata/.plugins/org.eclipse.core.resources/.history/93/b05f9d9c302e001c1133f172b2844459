@@ -1,0 +1,42 @@
+package 예제문제;
+import java.util.Scanner;
+
+class person{
+	String name=" ";
+}
+class student extends person{}
+class pro extends person{}
+class research extends pro{}
+
+public class javapro {
+	static void pr(person p) {
+		if(p instanceof person ) {
+			System.out.print("Person");
+		}
+		if(p instanceof student) {
+			System.out.print("student");
+		}
+		if(p instanceof pro) {
+			System.out.print("pro");
+		}
+		if(p instanceof research) {
+			System.out.print("research");
+		}
+	}
+	public static void main(String[] args) {
+		person p1=new person();
+		person p2=new student();
+		person p3=new pro();
+		person p4=new research();
+		System.out.print("p1");
+		pr(p1);
+		System.out.print("p2");
+		pr(p2);
+		System.out.print("p3");
+		pr(p3);
+		System.out.print("p4");
+		pr(p4);
+		}
+	}
+		
+

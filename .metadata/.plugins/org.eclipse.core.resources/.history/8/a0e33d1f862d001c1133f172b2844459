@@ -1,0 +1,27 @@
+package 예제문제;
+
+import java.util.Scanner;
+public class javapro {
+	public static void main(String[] args) {
+		int num;
+		Scanner scanner=new Scanner(System.in);
+		int grade=3;
+		System.out.print("점수 입력");
+		num=scanner.nextInt();
+		if(num>=60) {
+			if(grade==4) {
+				if(num>=70) {
+					System.out.print("합격");
+				}
+				else {
+					System.out.print("탈락");
+				}
+			}
+			else {
+				System.out.print("합격");
+			}
+			}
+		else {
+			System.out.print("탈락");
+		}
+		}}

@@ -1,0 +1,23 @@
+package 예제문제;
+import java.util.Scanner;
+class book{
+	String name;
+	String title;
+	public book(String t) {
+		title=t;
+		name="작자미상";
+	}
+	public book(String t,String n) {
+		title=t;
+		name=n;
+	}
+}
+public class javapro {
+	public static void main(String[] args) {
+		book book1=new book("춘향전");
+		book book2=new book("어린왕자","이제운");
+		System.out.println(book1.title+" "+book1
+				.name);
+		System.out.print(book2.title+" "+book2.name);
+	}}
+		

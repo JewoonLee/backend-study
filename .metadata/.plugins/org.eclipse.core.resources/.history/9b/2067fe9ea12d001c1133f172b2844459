@@ -1,0 +1,23 @@
+package 예제문제;
+import java.util.Scanner;
+
+public class javapro {
+	public static void changechar(char[] c) {
+		for(int i=0;i<c.length;i++) {
+			if(c[i]==' ') {
+				c[i]=',';
+			}
+		}
+	}
+	public static void readchar(char c[]) {
+		for(int i=0;i<c.length;i++) {
+			System.out.print(c[i]);
+		}
+	}
+	public static void main(String[] args) {
+		char c[]= {'T','h','i','s',' ','i','s',' ','p','e','n','c','i','l'};
+		changechar(c);
+		readchar(c);
+	}
+		
+	}

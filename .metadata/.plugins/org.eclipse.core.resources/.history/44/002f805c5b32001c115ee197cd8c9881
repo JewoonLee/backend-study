@@ -1,0 +1,24 @@
+package 공부하자;
+import java.util.Scanner;
+
+public class javagobu {
+
+	public static void main(String[] args) {
+		Scanner n=new Scanner(System.in);
+		int num=n.nextInt();
+		switch(num/10) {
+			case 10:
+			case 9: 
+				System.out.println("A");
+				break;
+			case 8:
+				System.out.println("B");
+				break;
+			case 7:
+				System.out.println("C");
+				break;
+			default:
+				System.out.println("F");
+		}
+	}
+}

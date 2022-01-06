@@ -1,0 +1,10 @@
+package 예제문제;
+import java.util.Scanner;
+public class javapro {
+	public static void main(String[] args) {
+		char a='A';
+		do {
+			System.out.print(a);
+			a++;
+		}while(a<='z');
+	}}

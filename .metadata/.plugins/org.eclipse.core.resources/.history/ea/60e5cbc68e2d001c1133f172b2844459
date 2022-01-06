@@ -1,0 +1,9 @@
+package 예제문제;
+import java.util.Scanner;
+public class javapro {
+	public static void main(String[] args) {
+		String array[]= {"aaaa","bbbb","cccc","dddd"};
+		for(String k:array) {
+			System.out.print(k);
+		}
+	}}

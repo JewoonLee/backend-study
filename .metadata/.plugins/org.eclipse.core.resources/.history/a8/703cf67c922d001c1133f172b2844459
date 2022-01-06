@@ -1,0 +1,17 @@
+package 예제문제;
+import java.util.Scanner;
+public class javapro {
+	static int[] ar() {
+		int intarray[]=new int[4];
+		for(int i=0;i<intarray.length;i++) {
+			intarray[i]=i;
+		}
+		return intarray;
+	}
+	public static void main(String[] args) {
+		int array[];
+		array=ar();
+		for(int i=0;i<array.length;i++) {
+			System.out.print(array[i]);
+		}}}
+		

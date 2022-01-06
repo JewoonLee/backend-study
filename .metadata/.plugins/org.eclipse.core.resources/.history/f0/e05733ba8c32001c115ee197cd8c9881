@@ -1,0 +1,45 @@
+package 공부하자;
+import java.util.Scanner;
+
+class point{
+	private int x;
+	private int y;
+	public point() {
+		this.x=0;
+		this.y=0;
+	}
+	public point(int x,int y) {
+		this.x=x;
+		this.y=y;
+		
+	}
+	
+	public void showpoint(){
+		System.out.println(x+","+y);	
+	}
+	
+}
+class colorpoint extends point{
+	private String color;
+	public void setcolor(String color) {
+		this.color=color;
+	}
+	public colorpoint(int x,int y,String color) {
+		super(x,y);
+		this.color=color;
+		}
+	public void showcolorpoint() {
+		showpoint();
+		System.out.println(color);	
+	}
+}
+
+public class javagobu {
+	public static void main(String[] args) {
+		colorpoint cp=new colorpoint(3,4,"blue");
+		cp.showcolorpoint();
+	}
+}
+
+
+

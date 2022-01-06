@@ -1,0 +1,22 @@
+package 공부하자;
+import java.util.Scanner;
+
+public class javagobu {
+
+	public static void main(String[] args) {
+		int n;
+		int cnt=0;
+		int sum=0;
+		double ave;
+		Scanner scanner=new Scanner(System.in);
+		n=scanner.nextInt();
+		while(n!=-1) {
+			cnt++;
+			sum+=n;
+			n=scanner.nextInt();
+			
+		}
+		ave=sum/cnt;
+		System.out.println("평균= "+ave);
+	}
+}

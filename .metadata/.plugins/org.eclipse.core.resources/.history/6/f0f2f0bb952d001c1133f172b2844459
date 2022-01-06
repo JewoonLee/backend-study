@@ -1,0 +1,25 @@
+package 예제문제;
+import java.util.Scanner;
+class rec{
+	int width;
+	int height;
+	public rec() {}
+	public rec(int width,int height) {
+		this.width=width;
+		this.height=height;
+	}
+	public int getarea() {
+		return width*height;
+	}
+}
+public class javapro {
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		rec r1=new rec();
+		r1.width=10;
+		r1.height=11;
+		rec r2=new rec(12,13);
+		System.out.print(r1.getarea()+"\n");
+		System.out.print(r2.getarea());
+	}}
+		

@@ -1,0 +1,16 @@
+package 예제문제;
+
+import java.util.Scanner;
+public class javapro {
+	public static void main(String[] args) {
+		int sec, min, hour,time;
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("시간을 입력:");
+		time=scanner.nextInt();
+		sec=time%60;
+		hour=time/(60*60);
+		min=(time/60)%60;
+		System.out.println("시간은 "+hour+"시"+min+"분"+sec+"초 입니다.");
+	}}
+
+		

@@ -1,0 +1,21 @@
+package 抗力巩力;
+import java.util.Scanner;
+class book {
+	String name;
+	String title;
+	public book(String name,String title) {
+		this.name=name; this.title=title;
+	}
+}
+public class javapro {
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		book []b=new book[2];
+		for(int i=0;i<b.length;i++) {
+			String title=scanner.next();
+			String name=scanner.next();
+			b[i]=new book(name,title);
+		}
+		for(int i=0;i<2;i++) {
+			System.out.println("力格:"+b[i].title+"累磊: "+b[i].name);
+	}}}

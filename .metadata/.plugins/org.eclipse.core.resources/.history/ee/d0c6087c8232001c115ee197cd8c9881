@@ -1,0 +1,33 @@
+package 공부하자;
+import java.util.Scanner;
+
+class Book{
+	String title;
+	String author;
+	void show() {
+		System.out.print(title+" "+author);
+	}
+	public Book() {
+		this("","");
+	}
+	public Book(String t) {
+		this(t,"작자미상");
+	}
+	public Book(String t,String a) {
+		this.title=t;
+		this.author=a;
+	}
+}
+
+public class javagobu {
+	public static void main(String[] args) {
+		Book b1=new Book();
+		Book b2=new Book("춘향전");
+		Book b3=new Book("어린왕자","생제르망");
+		b1.show();
+		b2.show();
+		b3.show();
+	}
+}
+
+

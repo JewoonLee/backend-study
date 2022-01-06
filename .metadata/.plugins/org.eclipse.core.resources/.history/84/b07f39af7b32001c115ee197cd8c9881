@@ -1,0 +1,16 @@
+package 공부하자;
+import java.util.Scanner;
+
+public class javagobu {
+
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		String name;
+		name=scanner.next();
+		if(name=="dlwpdns") {
+			System.out.println("잘생김");
+		}
+		}
+	}
+
+

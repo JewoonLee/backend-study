@@ -1,0 +1,29 @@
+package 공부하자;
+import java.util.Scanner;
+
+class Circle{
+	int radius;
+	public Circle(int radius) {
+		this.radius=radius;
+	}
+	public double getarea() {
+		return 3.14*radius*radius;
+	}
+}
+
+
+
+public class javagobu {
+	public static void main(String[] args) {
+		Circle c1[]=new Circle[5];
+		for(int i=0;i<c1.length;i++) {
+			c1[i]=new Circle(i);
+		}
+		for(int i=0;i<c1.length;i++) {
+			double area=c1[i].getarea();
+			System.out.print(area);
+		}
+	}
+}
+
+

@@ -1,0 +1,20 @@
+package 공부하자;
+import java.util.Scanner;
+
+public class javagobu {
+
+	public static void main(String[] args) {
+		int sum=0;
+		for(int i=1;i<=10;i++) {
+			if(i!=10) {
+				System.out.print(i+"+ ");
+				sum+=i;
+			}
+			else {
+				System.out.print(i+"=");
+				sum+=i;
+			}
+		}
+		System.out.println(sum);
+	}
+}

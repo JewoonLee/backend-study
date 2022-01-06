@@ -1,0 +1,18 @@
+package 예제문제;
+import java.util.Scanner;
+class rec{
+	int width;
+	int height;
+	public rec() {}
+	public int getarea() {
+		return width*height;
+	}
+}
+public class javapro {
+	public static void main(String[] args) {
+		rec c1=new rec();
+		c1.width=10;
+		c1.height=12;
+		int area=c1.getarea();
+		System.out.print("크기:"+area);
+}}

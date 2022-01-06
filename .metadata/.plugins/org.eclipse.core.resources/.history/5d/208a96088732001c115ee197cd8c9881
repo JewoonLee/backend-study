@@ -1,0 +1,24 @@
+package 공부하자;
+import java.util.Scanner;
+
+public class javagobu {
+	static void change(char []c) {
+		for(int i=0;i<c.length;i++) {
+			if(c[i]==' ') {
+				c[i]=',';
+			}
+		}
+	}
+	static void read(char c[]) {
+		for(int i=0;i<c.length;i++) {
+			System.out.print(c[i]);	
+		}
+	}
+	public static void main(String[] args) {
+		char c[]= {'T','h','i','s',' ','i','s',' ','p','e','n'};
+		change(c);
+		read(c);
+	}
+}
+
+

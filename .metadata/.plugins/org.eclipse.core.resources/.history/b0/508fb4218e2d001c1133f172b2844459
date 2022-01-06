@@ -1,0 +1,11 @@
+package 예제문제;
+import java.util.Scanner;
+public class javapro {
+	public static void main(String[] args) {
+		int array[]= {1,2,3,4,5};
+		int sum=0;
+		for(int k:array) {
+			sum+=k;
+		}
+		System.out.print(sum);
+	}}

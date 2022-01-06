@@ -1,0 +1,27 @@
+package 예제문제;
+import java.util.Scanner;
+
+class Calc{
+	private static double rate;
+	public static double todollar(double won) {
+		return won/rate;
+		
+	}
+	public static double towon(double dollar) {
+		return dollar*rate;
+	}
+	public void setrate(double rate) {
+		this.rate=rate;
+	}
+}
+public class javapro {
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		double rate=scanner.nextDouble();
+		Calc.setrate(rate);
+		System.out.print("백만원은 미국돈으로 "+Calc.todollar(1000000));
+		System.out.print("100달러는 한국돈으로 "+Calc.towon(100));
+		
+		}
+	}
+	

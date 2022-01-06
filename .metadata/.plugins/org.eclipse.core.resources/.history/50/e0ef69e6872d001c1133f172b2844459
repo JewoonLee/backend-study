@@ -1,0 +1,22 @@
+package 예제문제;
+import java.util.Scanner;
+public class javapro {
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		String menu=scanner.next();
+		switch (menu){
+		case "카푸치노":
+		case "에스프레소":
+		case "카페라떼":
+			System.out.print("3500원");
+			break;
+		case "아아":
+		case "레몬에이드":
+			System.out.print("2500원");
+			break;
+		default:
+			System.out.print("그런 메뉴 없습니다.");
+		}
+		
+		}
+	}

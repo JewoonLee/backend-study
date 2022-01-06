@@ -1,0 +1,24 @@
+package 예제문제;
+import java.util.Scanner;
+public class javapro {
+	public static void main(String[] args) {
+		int array[],sum=0,count=0;
+		Scanner scanner=new Scanner(System.in);
+		array=new int[5];
+		double ave;
+		int max=0;
+		for(int i=0;i<array.length;i++) {
+			array[i]=scanner.nextInt();
+			sum+=array[i];
+			count++;
+			if(max<=array[i]) {
+				max=array[i];
+			}
+			}
+		ave=(double)sum/count;
+		System.out.print("제일 큰 수:"+max);
+		System.out.print("평균\n"+ave);
+		scanner.close();
+		}
+
+	}
