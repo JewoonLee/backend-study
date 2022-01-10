@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\82102\eclipse-workspace\mavenweb"/>
+			<item value="C:\Users\82102\eclipse-workspace\mavenweb\pom.xml"/>
 			<item value="C:\Users\82102\eclipse-workspace"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,13 +28,18 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="org.edwith.webbe.calculatorcli"/>
+			<item value="kr.or.connect.diexam01"/>
 			<item value="kr.or.connect.jdbcexam"/>
 			<item value="kr.or.connect.mavenweb"/>
 		</list>
 		<list key="groupId">
+			<item value="org.edwith.webbe"/>
 			<item value="kr.or.connect"/>
 		</list>
 		<list key="artifactId">
+			<item value="calculatorcli"/>
+			<item value="diexam01"/>
 			<item value="jdbcexam"/>
 			<item value="mavenweb"/>
 		</list>

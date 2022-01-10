@@ -12,7 +12,7 @@
     try{
         int value = (int)application.getAttribute("value");
         value = value + 2;
-        application.setAttribute("value", value);
+        application.setAttribute("value", value+2);
 %>
         <h1><%=value %></h1>
 <%        
