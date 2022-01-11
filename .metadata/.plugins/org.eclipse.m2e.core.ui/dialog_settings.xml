@@ -28,16 +28,18 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="kr.or.connect.daoexam"/>
 			<item value="org.edwith.webbe.calculatorcli"/>
 			<item value="kr.or.connect.diexam01"/>
 			<item value="kr.or.connect.jdbcexam"/>
 			<item value="kr.or.connect.mavenweb"/>
 		</list>
 		<list key="groupId">
-			<item value="org.edwith.webbe"/>
 			<item value="kr.or.connect"/>
+			<item value="org.edwith.webbe"/>
 		</list>
 		<list key="artifactId">
+			<item value="daoexam"/>
 			<item value="calculatorcli"/>
 			<item value="diexam01"/>
 			<item value="jdbcexam"/>

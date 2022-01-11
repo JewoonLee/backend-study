@@ -20,6 +20,7 @@
             <version>1.9.5</version>
             <scope>test</scope>
         </dependency>
+        
         <!-- junit 4.12 라이브러리를 추가합니다. -->
         <dependency>
             <groupId>junit</groupId>

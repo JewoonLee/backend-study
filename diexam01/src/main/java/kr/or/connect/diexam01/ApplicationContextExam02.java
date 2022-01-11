@@ -9,7 +9,7 @@ public class ApplicationContextExam02 {
 		ApplicationContext ac = new ClassPathXmlApplicationContext( 
 				"classpath:applicationContext.xml"); 
 
-		Car car = (Car)ac.getBean("car");
+		Car car = (Car)ac.getBean("c");
 		car.run();
 	}
 }
