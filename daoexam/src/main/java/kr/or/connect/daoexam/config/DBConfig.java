@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 public class DBConfig {
 	
 	private String driverClassName = "com.mysql.jdbc.Driver"; 
-    private String url = "jdbc:mysql://localhost:3306/connectdb"; 
+    private String url = "jdbc:mysql://localhost:3306/connectdb?useUnicode=true&characterEncoding=utf8"; 
 
     private String username = "user";
     private String password = "connect123!@#";
