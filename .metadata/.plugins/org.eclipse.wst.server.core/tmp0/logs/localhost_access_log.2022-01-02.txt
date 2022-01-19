@@ -1,5 +1,0 @@
-127.0.0.1 - - [02/Jan/2022:22:48:05 +0900] "GET / HTTP/1.1" 404 807
-0:0:0:0:0:0:0:1 - - [02/Jan/2022:22:48:06 +0900] "GET /whynot/ApplicationScope01 HTTP/1.1" 200 20
-0:0:0:0:0:0:0:1 - - [02/Jan/2022:22:48:06 +0900] "GET /favicon.ico HTTP/1.1" 404 818
-0:0:0:0:0:0:0:1 - - [02/Jan/2022:22:48:10 +0900] "GET /whynot/ApplicationScope02 HTTP/1.1" 200 20
-0:0:0:0:0:0:0:1 - - [02/Jan/2022:22:48:18 +0900] "GET /whynot/ApplicationScope01.jsp HTTP/1.1" 200 154

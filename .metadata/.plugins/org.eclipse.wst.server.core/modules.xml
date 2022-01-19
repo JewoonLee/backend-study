@@ -3,6 +3,7 @@
   <module moduleId="org.eclipse.jst.jee.server:firstwebs" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:exam31" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.j2ee.server:mavenweb" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:mvcexam3" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:whynot" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:mavenweb" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:exam25" serverId="Tomcat v8.5 Server at localhost"/>
