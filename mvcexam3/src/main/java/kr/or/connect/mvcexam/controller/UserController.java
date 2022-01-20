@@ -9,7 +9,7 @@ import kr.or.connect.mvcexam3.dto.User;
 
 @Controller
 public class UserController {
-	@RequestMapping(path="/userform", method=RequestMethod.GET)
+	@RequestMapping(path="/userform", method=RequestMethod.GET )
 	public String userform() {
 		return "userform";
 	}
@@ -19,6 +19,6 @@ public class UserController {
 
 		System.out.println("사용자가 입력한 user 정보입니다. 해당 정보를 이용하는 코드가 와야합니다.");
 		System.out.println(user);
-		return "regist";
+		return "regist";	
 	}
 }
