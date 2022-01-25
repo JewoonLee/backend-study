@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\82102\eclipse-workspace\guestbook\pom.xml"/>
 			<item value="C:\Users\82102\eclipse-workspace\mvcexam3\src\main\java\kr\or\connect\mvcexam\controller\goodsController.java"/>
 			<item value="C:\Users\82102\eclipse-workspace\mvcexam"/>
 			<item value="C:\Users\82102\eclipse-workspace\mavenweb"/>
@@ -30,12 +31,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="org.edwith.webbe.securityexam"/>
 			<item value="kr.or.connect.guestbook"/>
 		</list>
 		<list key="groupId">
+			<item value="org.edwith.webbe"/>
 			<item value="kr.or.connect"/>
 		</list>
 		<list key="artifactId">
+			<item value="securityexam"/>
 			<item value="guestbook"/>
 		</list>
 		<list key="projectNameTemplate">
