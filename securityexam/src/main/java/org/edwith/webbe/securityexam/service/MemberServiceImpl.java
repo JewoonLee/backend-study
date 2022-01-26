@@ -14,6 +14,7 @@ import java.util.List;
 
 @Service
 public class MemberServiceImpl implements MemberService {
+	
     // 생성자에 위해 주입되는 객체이고, 해당 객체를 초기화할 필요가 이후에 없기 때문에 final로 선언하였다.
     // final로 선언하고 초기화를 안한 필드는 생성자에서 초기화를 해준다.
     private final MemberDao memberDao;
@@ -25,7 +26,7 @@ public class MemberServiceImpl implements MemberService {
         this.memberDao = memberDao;
         this.memberRoleDao = memberRoleDao;
     }
-
+    
     @Override
     @Transactional
     public UserEntity getUser(String loginUserId) {
@@ -45,4 +46,21 @@ public class MemberServiceImpl implements MemberService {
         return list;
     }
 
+	@Override
+	@Transactional(readOnly = false)
+	public void addMember(Member member, boolean admin) {
+		memberDao.addMember(member);
+		
+		Member selectedMember = memberDao.getMemberByEmail(member.getEmail());
+		Long memberId = selectedMember.getId();
+		if(admin) {
+			memberRoleDao.addAdminRole(memberId);
+		}
+		memberRoleDao.addUserRole(memberId);
+	}
+
+	@Override
+	public Member getMemberByEmail(String email) {
+        return memberDao.getMemberByEmail(email);
+	}
 }
