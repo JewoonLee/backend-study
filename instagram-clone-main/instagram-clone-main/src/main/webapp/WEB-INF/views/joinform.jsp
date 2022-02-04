@@ -7,7 +7,7 @@
 <title>회원 가입</title>
 </head>
 <body>
-	<form method="post" action="/instagram-clone/member/join">
+	<form method="post" action="/instagram-clone/join">
 	  <div>
 	    <label>이름</label>
 	    <input type="text" name="name">

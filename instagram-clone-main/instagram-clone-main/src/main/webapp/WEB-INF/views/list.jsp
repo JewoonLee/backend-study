@@ -77,7 +77,7 @@
 	              <a class="nav-item nav-link" href="loginform">Login</a>
 	            </li>
 	            <li class="nav-item">
-	              <a class="nav-item nav-link" href="{% url 'common:signup' %}">Signup</a>
+	              <a class="nav-item nav-link" href="joinform">Signup</a>
 	            </li>
 
 	          </ul>

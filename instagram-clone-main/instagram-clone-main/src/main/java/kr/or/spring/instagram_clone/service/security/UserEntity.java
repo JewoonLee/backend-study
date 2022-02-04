@@ -1,6 +1,5 @@
 package kr.or.spring.instagram_clone.service.security;
 
-
 public class UserEntity {
 	private String loginUserId;
 	private String password;
