@@ -8,7 +8,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/hyunmin0317/instagram-clone/main/src/main/webapp/resources/img/instagram.svg">
+    <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/hyunmin0317/instagram-clone/main/src/main/webapp/resources/static/instagram.svg">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="<spring:url value='/resources/static/jumbotron-narrow.css'/>">
@@ -91,7 +91,7 @@
 			
 			<div class="container">
 			    <h5 class="my-3 border-bottom pb-2">게시물 등록</h5>
-			    	<form method="post" action="write" class="post-form my-3">
+			    	<form method="post" action="write" class="post-form my-3" enctype="multipart/form-data">
 				
 						<div class="input-group mb-3">
 						  <span class="input-group-text" id="inputGroup-sizing-default">Title</span>
@@ -100,7 +100,7 @@
 
 						<div class="input-group mb-3">
 						  <label class="input-group-text" for="inputGroupFile01">Image</label>
-						  <input type="file" class="form-control" id="inputGroupFile01">
+						  <input type="file" class="form-control" id="inputGroupFile01" name="file">
 						</div>
 
 						<div class="form-floating">
