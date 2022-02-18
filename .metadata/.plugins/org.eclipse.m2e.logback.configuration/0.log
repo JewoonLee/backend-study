@@ -15463,3 +15463,62 @@ org.eclipse.core.runtime.CoreException: Launch configuration instagram-clone (1)
 2022-02-14 14:12:49,502 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\main\resources
 2022-02-14 14:12:49,504 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-02-14 14:12:49,504 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\test\resources
+2022-02-18 17:23:32,619 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-02-18 17:23:40,438 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 17:23:40,448 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\eclipse-workspace\guestbook\src\main\resources
+2022-02-18 17:23:40,453 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 17:23:40,454 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\eclipse-workspace\guestbook\src\test\resources
+2022-02-18 17:23:42,972 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 17:23:42,974 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\main\resources
+2022-02-18 17:23:42,977 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 17:23:42,978 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\test\resources
+2022-02-18 17:37:33,010 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 17:37:33,011 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\main\resources
+2022-02-18 17:37:33,014 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 17:37:33,015 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\test\resources
+2022-02-18 17:52:18,825 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 17:52:18,826 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\main\resources
+2022-02-18 17:52:18,828 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 17:52:18,829 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\test\resources
+2022-02-18 17:54:16,826 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 17:54:16,827 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\main\resources
+2022-02-18 17:54:16,830 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 17:54:16,831 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\test\resources
+2022-02-18 17:59:10,870 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 17:59:10,871 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\main\resources
+2022-02-18 17:59:10,876 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 17:59:10,877 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\test\resources
+2022-02-18 18:01:02,401 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 18:01:02,401 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\main\resources
+2022-02-18 18:01:02,404 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 18:01:02,405 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\test\resources
+2022-02-18 18:01:14,790 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 18:01:14,791 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\main\resources
+2022-02-18 18:01:14,795 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 18:01:14,796 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\test\resources
+2022-02-18 18:01:18,362 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 18:01:18,363 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\main\resources
+2022-02-18 18:01:18,366 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 18:01:18,367 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\test\resources
+2022-02-18 18:10:06,117 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 18:10:06,118 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\main\resources
+2022-02-18 18:10:06,121 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 18:10:06,122 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\test\resources
+2022-02-18 18:10:25,678 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 18:10:25,679 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\main\resources
+2022-02-18 18:10:25,682 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 18:10:25,683 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\test\resources
+2022-02-18 18:10:41,731 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 18:10:41,732 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\main\resources
+2022-02-18 18:10:41,735 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 18:10:41,736 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\test\resources
+2022-02-18 18:16:06,229 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 18:16:06,230 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\main\resources
+2022-02-18 18:16:06,233 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 18:16:06,234 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\test\resources
+2022-02-18 18:16:12,186 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 18:16:12,187 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\main\resources
+2022-02-18 18:16:12,189 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 18:16:12,190 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\test\resources
+2022-02-18 18:16:31,397 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-18 18:16:31,398 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\82102\Desktop\instagram-clone\instagram-clone\src\main\resources
