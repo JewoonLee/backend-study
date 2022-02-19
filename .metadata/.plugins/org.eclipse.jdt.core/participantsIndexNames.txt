@@ -7,6 +7,8 @@ C:\Users\82102\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jsp
 \securityexam\src\main\java
 C:\Users\82102\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\32573792.index
 \instagram-clone\src\main\java
+C:\Users\82102\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2012762748.index
+\instagram-clone\instagram-clone\src\main\java
 C:\Users\82102\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\111433747.index
 \guestbook\src\main\java
 C:\Users\82102\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2163512673.index

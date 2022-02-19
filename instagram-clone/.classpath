@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="kr/or/spring/instagram_clone/controller/" kind="src" path="instagram-clone/src/main/java"/>
+	<classpathentry kind="src" path="instagram-clone/src/main/java/kr/or/spring/instagram_clone/controller"/>
+	<classpathentry kind="output" path="instagram-clone/target/classes"/>
+</classpath>

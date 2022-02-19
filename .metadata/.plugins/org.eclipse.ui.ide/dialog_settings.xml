@@ -17,6 +17,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\82102\eclipse-workspace\instagram-clone\instagram-clone"/>
+			<item value="C:\Users\82102\eclipse-workspace\instagram-clone"/>
+			<item value="C:\Users\82102\Desktop\instagram-clone-main\instagram-clone-main"/>
 			<item value="C:\Users\82102\Desktop\instagram-clone\instagram-clone"/>
 			<item value="C:\Users\82102\Desktop\새 폴더\instagram-clone"/>
 			<item value="C:\Users\82102\eclipse-workspace\diexam01"/>
